@@ -1,0 +1,22 @@
+Begin Object Class=/Script/Engine.Material Name="MinimapMaterial"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=TextureRenderTarget2D'"/Game/Blueprints/RT_MiniMap.RT_MiniMap"'
+      MaterialExpressionEditorX=-250
+      MaterialExpressionGuid=D7EE646040A80668E1E45E8FC0131E7C
+      Material=Material'"MinimapMaterial"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   MaterialDomain=MD_UI
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=525CCF6B49C570BFCD1BC6839109F113
+   CachedExpressionData=(ReferencedTextures=(TextureRenderTarget2D'"/Game/Blueprints/RT_MiniMap.RT_MiniMap"'),QualityLevelsUsed=(False,False,False,False))
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=E2BD78484BB991A14856ACB6D6A2CBB9
+End Object
